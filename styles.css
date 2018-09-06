@@ -14,6 +14,7 @@ html,body
 
 /*1.Formatting*/
 	/*1. Jumbotron*/
+		/*1. Mobile*/
 	/*2. Links*/
 		/*1. Mobile*/
 		/*2. Desktop*/
@@ -40,13 +41,17 @@ html,body
 			padding: 2em;
 			padding-top: 7em;
 		}
+		/*1. Mobile*/
+		@media (min-width: 300px) and (max-width: 900px){
+			.jumbotron{
+				padding: 1em;
+			}
+			}
+		}
 		h1{
 			padding: .2em;
 		}
-		.jumbotron img{
-			
-		}
-	/*2. Links*/
+		/*2. Links*/
 		.links{
 			padding: 6em;
 		}
@@ -70,7 +75,7 @@ html,body
 			font-family: 'Montserrat', sans-serif;
 			color: white;
 		}
-	/*2. subheaer*/
+	/*2. Subheader*/
 		h4{
 			font-family: 'Montserrat', sans-serif;
 			color: white;
@@ -86,6 +91,15 @@ html,body
 		li{
 			font-family: 'Doris', sans-serif;
 		}
+	/*4. Mobile*/
+			@media (min-width: 300px) and (max-width: 900px){
+				h1{
+					font-size: 2em;
+				}
+				h4{
+					font-size: 1.2em;
+				}
+			}
 /*3. Colors*/
 	/*1. Jumbotron*/
 		.jumbotron{
@@ -100,3 +114,9 @@ html,body
 			height: 10em;
 			width: auto;
 		}
+		/*1. Mobile*/
+			@media (min-width: 300px) and (max-width: 900px){
+				.jumbotron img{
+					height: 6em;
+				}
+			}
