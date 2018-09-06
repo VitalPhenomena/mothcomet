@@ -14,8 +14,16 @@ html,body
 
 /*1.Formatting*/
 	/*1. Jumbotron*/
+	/*2. Links*/
+		/*1. Mobile*/
+		/*2. Desktop*/
 /*2. Typography*/
-/*3. Images*/
+	/*1. Headers*/
+	/*2. Subheaders*/
+	/*3. Links*/
+/*3. Colors*/
+ 	/*1. Jumbotron*/
+/*4. Images*/
 	/*1. Jumbotron*/
 
 
@@ -42,16 +50,15 @@ html,body
 		.links{
 			padding: 6em;
 		}
-	/*3. Full Screen*/
-		div#loading{
-			position: absolute;
-		    top: 0;
-		    right: 0;
-		    bottom: 0;
-		    left: 0;
-			background-color: black;
-			display: block;
-		}
+		/*1. Mobile*/
+			@media (min-width: 300px) and (max-width: 900px){
+				.links{
+					display: none;
+				}
+				.apps{
+					display: block;
+				}
+			}
 
 /*2. Typography*/
 	/*1 Header*/
