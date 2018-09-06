@@ -1,0 +1,95 @@
+/* HOME PAGE CSS*/
+html,body
+{		
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+/*Table of Contents*/
+
+
+/*1.Formatting*/
+	/*1. Jumbotron*/
+/*2. Typography*/
+/*3. Images*/
+	/*1. Jumbotron*/
+
+
+
+
+/*1. Formatting*/
+
+	/*1. Jumbotron*/
+		.jumbotron{
+			margin-right: auto;
+			margin-left:auto;
+			text-align:center;
+			/*Paddign*/
+			padding: 2em;
+			padding-top: 7em;
+		}
+		h1{
+			padding: .2em;
+		}
+		.jumbotron img{
+			
+		}
+	/*2. Links*/
+		.links{
+			padding: 6em;
+		}
+	/*3. Full Screen*/
+		div#loading{
+			position: absolute;
+		    top: 0;
+		    right: 0;
+		    bottom: 0;
+		    left: 0;
+			background-color: black;
+			display: block;
+		}
+
+/*2. Typography*/
+	/*1 Header*/
+		h1{
+			font-family: 'Press Start 2P', cursive;
+			color: white;
+		}
+		h2{
+			font-family: 'Montserrat', sans-serif;
+			color: white;
+		}
+	/*2. subheaer*/
+		h4{
+			font-family: 'Montserrat', sans-serif;
+			color: white;
+		}
+		p#hearts{
+			font-family: 'Press Start 2P', cursive;
+			color: white;
+		}
+	/*3. Links*/
+		a{
+			font-family: 'Doris', sans-serif;
+		}
+		li{
+			font-family: 'Doris', sans-serif;
+		}
+/*3. Colors*/
+	/*1. Jumbotron*/
+		.jumbotron{
+			background-color:  #001f3f ;
+		}
+		body{
+			background-color:  #001f3f ;
+		}
+/*4. Images*/
+	/*1. Jumbotron*/
+		.jumbotron img{
+			height: 10em;
+			width: auto;
+		}
